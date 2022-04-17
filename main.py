@@ -369,3 +369,4 @@ for category in categories:
             ws[get_column_letter(col) + str(row)].alignment = Alignment(vertical='center')
 
     wb.save(f'Electrical Appliance Price {datetime.date.today()}.xlsx')
+    driver.quit()
